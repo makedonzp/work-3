@@ -1,0 +1,2347 @@
+@import url("../css/footer.css");
+@import url("../css/header.css");
+@import url("../css/media-request.css");
+@media (min-width: 414px) {
+  .container {
+    width: 374px;
+  }
+  .main__content {
+    display: grid;
+    grid-template-rows: 128px 20px 207px 24px 72px 48px 32px 144px 96px 218px 456px 259px 168px 168px 192px 612px 168px 328px 456px 367px 168px 328px 419px 419px 32px 192px 328px 512px 481px 292px 248px;
+    grid-template-columns: 374px;
+    gap: 24px;
+    margin-bottom: 60px;
+  }
+  .main__content-title h1 {
+    font-family: "Montserrat-Bold", "serif";
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    width: 374px;
+  }
+  .main__content-author figcaption {
+    display: flex;
+    gap: 4px;
+  }
+  .main__content-image {
+    background-image: url("../images/article-fourth-image-desktop.png");
+    background-size: cover;
+    background-position: center;
+  }
+  .main__content-title-second {
+    font-family: "Montserrat-Bold", "serif";
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .main__content-links {
+    display: flex;
+    align-items: start;
+  }
+  .main__content-links div:nth-child(1) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 24px;
+    height: 24px;
+  }
+  .main__content-links p {
+    width: 340px;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration: underline;
+  }
+  .main__content-links-second {
+    display: flex;
+    align-items: flex-start;
+  }
+  .main__content-links-second div:nth-child(1) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 24px;
+    height: 24px;
+  }
+  .main__content-links-second p {
+    width: 342px;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration: underline;
+  }
+  .main__content-title-subtitle {
+    font-family: "Montserrat-Bold", "serif";
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .main__content-third h3 {
+    font-family: "Montserrat-Bold", "serif";
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+  }
+  .main__content-third-text-one,
+  .main__content-third-text-two {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .main__content-third-text-one p {
+    width: 371px;
+  }
+  .main__content-fourth-text-three p {
+    font-family: "Montserrat-light-italic", "serif";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .main__content-fourth-text-three {
+    background-color: #f3f7fe;
+    border-radius: 16px;
+    padding: 16px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 8px;
+  }
+  .main__content-fourth-text-three div:nth-child(1) {
+    position: absolute;
+    top: 16px;
+  }
+  .main__content-fourth-text-three div p:nth-child(1) {
+    font-size: 16px;
+    line-height: 24px;
+    font-family: "Montserrat-Light-italic", "serif";
+    font-weight: 400;
+    width: 371px;
+  }
+  .main__content-fourth-text-three img {
+    height: 36px;
+    width: 30px;
+  }
+  .main__content-fourth-text-three div figure figcaption {
+    font-size: 16px;
+    line-height: 24px;
+    font-family: "Montserrat-Bold", "serif";
+    font-weight: 700;
+  }
+  .main__content-fifth-text-four h3 {
+    font-size: 18px;
+    line-height: 26px;
+    font-family: "Montserrat-Bold", "serif";
+    font-weight: 700;
+    width: 346px;
+  }
+  .main__content-fifth-text-four {
+    display: grid;
+    grid-template-rows: 64px 168px 192px;
+    gap: 16px;
+  }
+  .main__content-fifth-text-four-box {
+    display: flex;
+    align-self: flex-start;
+  }
+  .main__content-fifth-text-four-box div {
+    display: flex;
+    justify-content: centera;
+    align-items: flex-start;
+  }
+  .main__content-fifth-text-four-box p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .main__content-fifth-text-four-box div:nth-child(1) {
+    width: 24px;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .main__content-fifth-text-four-box p {
+    font-size: 16px;
+    line-height: 24px;
+    width: 330px;
+  }
+  .main__content-sixth-text-five {
+    flex-direction: column;
+    display: flex;
+    gap: 16px;
+  }
+  .main__content-image-second {
+    background-image: url("../images/article-eighth-image-desktop.png");
+    background-position: center;
+    background-size: cover;
+    height: 207px;
+  }
+  .main__content-sixth-text-five figcaption {
+    font-family: "Montserrat-Light", "serif";
+    font-size: 14px;
+    line-height: 18px;
+    color: #868686;
+  }
+  .main__content-seventh-text-six p {
+    font-family: "Montserrat-regular", "serif";
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .main__content-eighth-text-seven {
+    background-image: url("../images/bgr-thing.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .main__content-eighth-text-seven p {
+    font-family: "Montserrat-Light-italic", "serif";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .main__content-nine-text-eigth p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .main__content-ten-text-nine {
+    display: grid;
+    gap: 16px;
+  }
+  .main__content-ten-text-nine p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .main__content-image-third {
+    background-image: url("../images/woman-in-hat.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 380px;
+  }
+  .main__content-eleven-text-ten p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .main__content-twelve-text-eleven {
+    background-color: #fefaec;
+    border-radius: 16px;
+    padding: 16px;
+    width: auto;
+    display: grid;
+    gap: 8px;
+  }
+  .main__content-twelve-text-eleven h3 {
+    font-size: 16px;
+    line-height: 24px;
+    font-family: "Montserrat-Bold", "serif";
+    font-weight: 700;
+  }
+  .main__content-twelve-text-eleven p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .main__content-thirteen-text-twelve {
+    display: grid;
+    gap: 16px;
+    grid-template-rows: 64px 168px 192px;
+  }
+  .main__content-thirteen-text-twelve h3 {
+    font-size: 18px;
+    line-height: 26px;
+    font-family: "Montserrat-Bold", "serif";
+    font-weight: 700;
+    width: 346px;
+  }
+  .main__content-thirteen-text-twelve-box {
+    display: flex;
+    align-items: flex-start;
+  }
+  .main__content-thirteen-text-twelve-box div:nth-child(1) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 24px;
+    width: 24px;
+  }
+  .main__content-thirteen-text-twelve-box p {
+    width: 346px;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .main__content-fourteen-text-thirteen {
+    display: grid;
+    gap: 16px;
+  }
+  .main__content-image-fourth {
+    background-image: url("../images/hands.png");
+    background-position: center;
+    background-size: cover;
+    height: 207px;
+  }
+  .main__content-fourteen-text-thirteen p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .main__content-fifteen-text-fourteen p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .main__content-sixteen-text-fifteen {
+    padding: 16px;
+    background-color: #fff3eb;
+    border-radius: 16px;
+    display: grid;
+    gap: 8px;
+  }
+  .main__content-sixteen-text-fifteen h3 {
+    font-size: 16px;
+    line-height: 24px;
+    font-family: "Montserrat-Bold", "serif";
+    font-weight: 700;
+  }
+  .main__content-sixteen-text-fifteen p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .main__content-seventeen-text-sixteen {
+    display: grid;
+    gap: 8px;
+  }
+  .main__content-seventeen-text-sixteen p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .main__content-image-fifth {
+    background-image: url("../images/chear-414.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: auto;
+  }
+  .main__content-eghteen-text-seventeen {
+    display: grid;
+    gap: 8px;
+  }
+  .main__content-image-sixth {
+    background-image: url("../images/girl-414.png");
+    background-size: cover;
+    background-position: center;
+    height: 235px;
+  }
+  .main__content-eghteen-text-seventeen p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .line {
+    width: 66px;
+  }
+  .main__content-nineteen-text-eghteen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .main__content-nineteen-text-eghteen div:nth-child(1) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .line {
+    width: 66px;
+    height: 1px;
+    background-color: #0063a8;
+  }
+  .lightning {
+    background-image: url("../images/lightning.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 32px;
+    height: 32px;
+  }
+  .main__content-twenty-text-nineteen p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .main__content-twenty-one-text-twenty {
+    display: grid;
+    gap: 8px;
+    background-color: #03b2a51a;
+    border-radius: 16px;
+    padding: 16px;
+  }
+  .main__content-twenty-one-text-twenty h3 {
+    font-size: 16px;
+    line-height: 24px;
+    font-family: "Montserrat-Bold", "serif";
+    font-weight: 700;
+  }
+  .main__content-twenty-one-text-twenty p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .main__content-twenty-two-text-twenty-one {
+    display: grid;
+    grid-template-rows: 206px 162px 48px;
+    background-color: #e6f0fd;
+    border-radius: 16px;
+    gap: 24px;
+    padding: 24px;
+    text-align: center;
+    align-items: center;
+  }
+  .main__content-image-seventh {
+    background-image: url("../images/family.png");
+    background-size: contain;
+    background-position: center;
+    height: 206px;
+  }
+  .main__content-twenty-two-text-twenty-one div:nth-child(2) {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+  }
+  .main__content-twenty-two-text-twenty-one div:nth-child(2) div {
+    width: 222px;
+  }
+  .main__content-twenty-two-text-twenty-one h3 {
+    text-align: center;
+    font-size: 18px;
+    line-height: 24px;
+    font-family: "Montserrat-Bold", "serif";
+    font-weight: 700;
+  }
+  .details {
+    font-family: "Montserrat-bold", "serif";
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    background-color: #35b3a9;
+    color: #fff;
+    width: 239px;
+    height: 48px;
+    border-radius: 4px;
+    font-weight: 700;
+  }
+  .main__content-twenty-three-text-twenty-two {
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 16px;
+    border: solid 1px#DEDEDE;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    padding: 24px;
+    box-shadow: 0 30px 50px 0 #eff5fb;
+  }
+  .specialist-lili {
+    background-image: url("../images/lili.png");
+    border-radius: 50%;
+    height: 120px;
+    width: 120px;
+  }
+  .absolute {
+    position: absolute;
+    left: 16px;
+    top: 16px;
+    width: 56px;
+    width: 105px;
+  }
+  .absolute div {
+    background-color: #f3f4f8b2;
+    padding: 3px 6px;
+    display: flex;
+    border-radius: 6px;
+    height: 24px;
+  }
+  .absolute span {
+    font-size: 12px;
+    line-height: 18px;
+    font-family: "Montserrat-regular", "serif";
+  }
+  .absolute div:nth-child(2) {
+    width: 74px;
+    margin-top: 8px;
+  }
+  .specialist-lili-title {
+    text-align: center;
+  }
+  .specialist-lili-title h3 {
+    font-family: "Montserrat-bold", "serif";
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+  }
+  .specialist-lili-title h5 {
+    font-family: "Montserrat-regular", "serif";
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .specialist-lili-title span {
+    font-size: 14px;
+    line-height: 20px;
+    color: #a2a7b1;
+  }
+  .specialist-lili-title-main {
+    margin: 16px 19px 0 19px;
+    margin-top: 16px;
+    width: 250px;
+  }
+  .specialist-lili-title-main h3 {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .specialist-lili-title-main p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  hr {
+    background-color: #dedede;
+    height: 1px;
+    width: 250px;
+    margin: 0 auto;
+    margin-top: 16px;
+  }
+  .specialist-lili-title-main h3 {
+    font-family: "Montserrat-bold", "serif";
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .specialist-lili-title-main p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .main__map-box {
+    width: 374px;
+    font-size: 12px;
+  }
+  .eclips-box {
+    width: 288px;
+    display: flex;
+    align-items: center;
+  }
+  .eclips-box div:nth-child(1) {
+    height: 24px;
+    width: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .eclips {
+    max-width: 220px;
+  }
+  .main__content-twenty-four-text-twenty-three {
+    background-image: url("../images/gift.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 292px;
+    border-radius: 16px;
+  }
+  .main__content-twenty-five-text-twenty-four {
+    display: grid;
+    grid-template-rows: 32px 60px 32px 48px;
+    background-image: url("../images/gifts.png");
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    height: 252px;
+    border: 1px solid #dedede;
+    border-radius: 16px;
+    padding: 16px;
+    gap: 16px;
+  }
+  .main__content-twenty-five-text-twenty-four div:nth-child(1) {
+    display: flex;
+    align-items: baseline;
+  }
+  .main__content-twenty-five-text-twenty-four h2 {
+    font-family: "Montserrat-Bold", "serif";
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    margin-right: 4px;
+    color: #2963a3;
+  }
+  .main__content-twenty-five-text-twenty-four h3 {
+    font-family: "Montserrat-Bold", "serif";
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+    color: #2963a3;
+  }
+  .main__content-twenty-five-text-twenty-four p {
+    font-family: "Montserrat-Light", "serif";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .main__content-twenty-five-text-twenty-four span {
+    font-family: "Montserrat-Bold", "serif";
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+  }
+  .buy {
+    font-family: "Montserrat-Bold", "serif";
+    width: 108px;
+    height: 48px;
+    background-color: #35b3a9;
+    color: #fff;
+    border-radius: 4px;
+    padding: 12px 16px 12px 16px;
+    font-weight: 700;
+  }
+  .footer__input-e-mail-box {
+    overflow: hidden;
+    border-radius: 4px;
+    height: 48px;
+    margin-bottom: 12px;
+  }
+  .input {
+    height: 48px;
+    width: 100%;
+    border-radius: 4px;
+    padding: 14px 0px 14px 16px;
+    margin-bottom: 12px;
+    overflow: hidden;
+    z-index: 5;
+  }
+  .footer__btn {
+    display: block;
+    position: absolute;
+    background-color: #35b3a9;
+    top: 0;
+    right: 0;
+    margin-right: -9px;
+    height: 48px;
+    width: 64px;
+    z-index: 1;
+  }
+}
+/* Разрешение 768рх */
+
+@media (min-width: 768px) {
+  .container {
+    width: 728px;
+  }
+  .main__content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 24px;
+    margin-bottom: 60px;
+  }
+  .main__map-box {
+    width: 496px;
+    font-size: 12px;
+    margin-bottom: 54px;
+  }
+  .eclips-box {
+    width: 226px;
+    display: flex;
+    align-items: center;
+  }
+  .eclips-box div:nth-child(1) {
+    height: 24px;
+    width: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .eclips {
+    max-width: 358px;
+  }
+  .main__content-title h1 {
+    font-family: "Montserrat-Bold", "serif";
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    width: 60%;
+  }
+  .main__content-author {
+    width: 100%;
+  }
+  .main__content-author figcaption {
+    display: flex;
+    gap: 4px;
+  }
+  .main__content-image {
+    background-image: url("../images/girl-inwater-large.png");
+    background-size: cover;
+    background-position: center;
+    height: 331px;
+    width: 100%;
+  }
+  .main__content-title-second {
+    font-family: "Montserrat-Bold", "serif";
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+  }
+  .main__content-links {
+    display: flex;
+    align-items: start;
+  }
+  .main__content-links div:nth-child(1) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 24px;
+    height: 24px;
+  }
+  .main__content-links p {
+    width: auto;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration: underline;
+  }
+  .main__content-links-second {
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+  }
+  .main__content-links-second div:nth-child(1) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 24px;
+    height: 24px;
+  }
+  .main__content-links-second p {
+    width: auto;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration: underline;
+  }
+  .main__content-title-subtitle {
+    font-family: "Montserrat-Bold", "serif";
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .main__content-third {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+  }
+  .main__content-third h3 {
+    font-family: "Montserrat-Bold", "serif";
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+  }
+  .main__content-third-text-one,
+  .main__content-third-text-two {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .main__content-third-text-one p {
+    width: auto;
+  }
+  .main__content-fourth-text-three p {
+    font-family: "Montserrat-light-italic", "serif";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .main__content-fourth-text-three {
+    background-color: #f3f7fe;
+    border-radius: 16px;
+    padding: 16px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .main__content-fourth-text-three {
+    height: 162px;
+  }
+  .main__content-fourth-text-three div:nth-child(1) {
+    position: absolute;
+    top: 16px;
+  }
+  .main__content-fourth-text-three div p:nth-child(1) {
+    font-size: 16px;
+    line-height: 24px;
+    font-family: "Montserrat-Light-italic", "serif";
+    font-weight: 400;
+    width: 680px;
+  }
+  .main__content-fourth-text-three img {
+    height: 36px;
+    width: 30px;
+  }
+  .main__content-fourth-text-three div figure figcaption {
+    font-size: 16px;
+    line-height: 24px;
+    font-family: "Montserrat-Bold", "serif";
+    font-weight: 700;
+  }
+  .main__content-fifth-text-four h3 {
+    font-size: 18px;
+    line-height: 26px;
+    font-family: "Montserrat-Bold", "serif";
+    font-weight: 700;
+    width: auto;
+  }
+  .main__content-fifth-text-four {
+    display: grid;
+    grid-template-rows: 32px 72px 96px;
+    gap: 16px;
+  }
+  .main__content-fifth-text-four-box {
+    display: flex;
+    align-self: flex-start;
+  }
+  .main__content-fifth-text-four-box div {
+    display: flex;
+    justify-content: centera;
+    align-items: flex-start;
+  }
+  .main__content-fifth-text-four-box div:nth-child(1) {
+    width: 24px;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+  }
+  .main__content-fifth-text-four-box p {
+    font-size: 16px;
+    line-height: 24px;
+    width: auto;
+  }
+  .main__content-sixth-text-five {
+    flex-direction: column;
+    display: flex;
+    gap: 16px;
+    width: 100%;
+  }
+  .main__content-image-second {
+    background-image: url("../images/mans.png");
+    background-position: center;
+    background-size: cover;
+    height: 331px;
+    width: 100%;
+  }
+  .main__content-sixth-text-five figcaption {
+    font-family: "Montserrat-Light", "serif";
+    font-size: 14px;
+    line-height: 18px;
+    color: #868686;
+  }
+  .main__content-seventh-text-six p {
+    font-family: "Montserrat-regular", "serif";
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .main__content-eighth-text-seven {
+    background-image: url("../images/bgr-thing.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 168px;
+  }
+  .main__content-eighth-text-seven p {
+    font-family: "Montserrat-Light-italic", "serif";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    width: 485px;
+  }
+
+  .main__content-nine-text-eigth p {
+    font-size: 16px;
+    line-height: 24px;
+    width: 720px;
+  }
+  .main__content-ten-text-nine {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 16px;
+  }
+  .main__content-ten-text-nine p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .main__content-image-third {
+    background-image: url("../images/woman-in-hat.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 380px;
+    width: 294px;
+  }
+  .main__content-ten-text-nine div:nth-child(2) {
+    width: 57%;
+  }
+  .main__content-eleven-text-ten p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .main__content-twelve-text-eleven {
+    background-color: #fefaec;
+    border-radius: 16px;
+    padding: 16px;
+    width: auto;
+    display: grid;
+    gap: 8px;
+    height: 200px;
+  }
+  .main__content-twelve-text-eleven h3 {
+    font-size: 16px;
+    line-height: 24px;
+    font-family: "Montserrat-Bold", "serif";
+    font-weight: 700;
+  }
+  .main__content-twelve-text-eleven p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .main__content-thirteen-text-twelve {
+    display: grid;
+    gap: 16px;
+    grid-template-rows: 32px 72px 96px;
+  }
+  .main__content-thirteen-text-twelve h3 {
+    font-size: 18px;
+    line-height: 26px;
+    font-family: "Montserrat-Bold", "serif";
+    font-weight: 700;
+    width: auto;
+  }
+  .main__content-thirteen-text-twelve-box {
+    display: flex;
+    align-items: flex-start;
+  }
+  .main__content-thirteen-text-twelve-box div:nth-child(1) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 24px;
+    width: 24px;
+  }
+  .main__content-thirteen-text-twelve-box p {
+    width: 688px;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .main__content-fourteen-text-thirteen {
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+  }
+  .main__content-image-fourth {
+    background-image: url("../images/hands.png");
+    background-position: center;
+    background-size: cover;
+    height: 182px;
+    width: 294px;
+  }
+  .main__content-fourteen-text-thirteen p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .main__content-fourteen-text-thirteen div:nth-child(2) {
+    width: 56%;
+  }
+  .main__content-fifteen-text-fourteen p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .main__content-sixteen-text-fifteen {
+    padding: 16px;
+    background-color: #fff3eb;
+    border-radius: 16px;
+    display: grid;
+    gap: 8px;
+    height: 200px;
+  }
+  .main__content-sixteen-text-fifteen h3 {
+    font-size: 16px;
+    line-height: 24px;
+    font-family: "Montserrat-Bold", "serif";
+    font-weight: 700;
+  }
+  .main__content-sixteen-text-fifteen p {
+    font-size: 16px;
+    line-height: 24px;
+    width: auto;
+  }
+  .main__content-seventeen-text-sixteen {
+    display: grid;
+    gap: 8px;
+    width: 48%;
+  }
+  .main__content-seventeen-text-sixteen p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .main__content-image-fifth {
+    background-image: url("../images/chear-414.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: auto;
+  }
+  .main__content-eghteen-text-seventeen {
+    display: grid;
+    gap: 8px;
+    width: 48%;
+  }
+  .main__content-image-sixth {
+    background-image: url("../images/girl-414.png");
+    background-size: cover;
+    background-position: center;
+    height: 235px;
+  }
+  .main__content-eghteen-text-seventeen p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .line {
+    width: 66px;
+  }
+  .main__content-nineteen-text-eghteen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .main__content-nineteen-text-eghteen div:nth-child(1) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .line {
+    width: 66px;
+    height: 1px;
+    background-color: #0063a8;
+  }
+  .lightning {
+    background-image: url("../images/lightning.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 32px;
+    height: 32px;
+  }
+  .main__content-twenty-text-nineteen p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .main__content-twenty-one-text-twenty {
+    display: grid;
+    gap: 8px;
+    background-color: #03b2a51a;
+    border-radius: 16px;
+    padding: 16px;
+  }
+  .main__content-twenty-one-text-twenty h3 {
+    font-size: 16px;
+    line-height: 24px;
+    font-family: "Montserrat-Bold", "serif";
+    font-weight: 700;
+  }
+  .main__content-twenty-one-text-twenty p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .main__content-twenty-two-text-twenty-one {
+    display: grid;
+    grid-template-rows: 206px 162px 48px;
+    background-color: #e6f0fd;
+    border-radius: 16px;
+    gap: 24px;
+    padding: 24px;
+    text-align: center;
+    align-items: center;
+    width: 48%;
+  }
+  .main__content-image-seventh {
+    background-image: url("../images/family.png");
+    background-size: contain;
+    background-position: center;
+    height: 206px;
+  }
+  .main__content-twenty-two-text-twenty-one div:nth-child(2) {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+  }
+  .main__content-twenty-two-text-twenty-one div:nth-child(2) div {
+    width: 222px;
+  }
+  .main__content-twenty-two-text-twenty-one h3 {
+    text-align: center;
+    font-size: 18px;
+    line-height: 24px;
+    font-family: "Montserrat-Bold", "serif";
+    font-weight: 700;
+  }
+  .details {
+    font-family: "Montserrat-bold", "serif";
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    background-color: #35b3a9;
+    color: #fff;
+    width: 239px;
+    height: 48px;
+    border-radius: 4px;
+    font-weight: 700;
+  }
+  .main__content-twenty-three-text-twenty-two {
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 16px;
+    border: solid 1px#DEDEDE;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    padding: 24px;
+    box-shadow: 0 30px 50px 0 #eff5fb;
+    width: 48%;
+  }
+  .specialist-lili {
+    background-image: url("../images/lili.png");
+    border-radius: 50%;
+    height: 120px;
+    width: 120px;
+  }
+  .absolute {
+    position: absolute;
+    left: 16px;
+    top: 16px;
+    width: 56px;
+    width: 105px;
+  }
+  .absolute div {
+    background-color: #f3f4f8b2;
+    padding: 3px 6px;
+    display: flex;
+    border-radius: 6px;
+    height: 24px;
+  }
+  .absolute span {
+    font-size: 12px;
+    line-height: 18px;
+    font-family: "Montserrat-regular", "serif";
+  }
+  .absolute div:nth-child(2) {
+    width: 74px;
+    margin-top: 8px;
+  }
+  .specialist-lili-title {
+    text-align: center;
+  }
+  .specialist-lili-title h3 {
+    font-family: "Montserrat-bold", "serif";
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+  }
+  .specialist-lili-title h5 {
+    font-family: "Montserrat-regular", "serif";
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .specialist-lili-title span {
+    font-size: 14px;
+    line-height: 20px;
+    color: #a2a7b1;
+  }
+  .specialist-lili-title-main {
+    margin: 16px 19px 0 19px;
+    margin-top: 16px;
+    width: 250px;
+  }
+  .specialist-lili-title-main h3 {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .specialist-lili-title-main p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  hr {
+    background-color: #dedede;
+    height: 1px;
+    width: 250px;
+    margin: 0 auto;
+    margin-top: 16px;
+  }
+  .specialist-lili-title-main h3 {
+    font-family: "Montserrat-bold", "serif";
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .specialist-lili-title-main p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .main__content-twenty-four-text-twenty-three {
+    background-image: url("../images/gift.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 292px;
+    border-radius: 16px;
+    width: 48%;
+    height: 242px;
+  }
+  .main__content-twenty-five-text-twenty-four {
+    display: grid;
+    grid-template-rows: 32px 60px 32px 48px;
+    background-image: url("../images/gifts.png");
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    height: 252px;
+    border: 1px solid #dedede;
+    border-radius: 16px;
+    padding: 16px;
+    gap: 16px;
+    width: 48%;
+    height: 242px;
+  }
+  .main__content-twenty-five-text-twenty-four div:nth-child(1) {
+    display: flex;
+    align-items: baseline;
+  }
+  .main__content-twenty-five-text-twenty-four h2 {
+    font-family: "Montserrat-Bold", "serif";
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    margin-right: 4px;
+    color: #2963a3;
+  }
+  .main__content-twenty-five-text-twenty-four h3 {
+    font-family: "Montserrat-Bold", "serif";
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+    color: #2963a3;
+  }
+  .main__content-twenty-five-text-twenty-four p {
+    font-family: "Montserrat-Light", "serif";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .main__content-twenty-five-text-twenty-four span {
+    font-family: "Montserrat-Bold", "serif";
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+  }
+  .buy {
+    font-family: "Montserrat-Bold", "serif";
+    width: 108px;
+    height: 48px;
+    background-color: #35b3a9;
+    color: #fff;
+    border-radius: 4px;
+    padding: 12px 16px 12px 16px;
+    font-weight: 700;
+  }
+  .footer__btn {
+    display: block;
+    height: 48px;
+    width: 64px;
+    border-radius: 4px;
+  }
+  .footer__input-e-mail-box {
+    overflow: hidden;
+    border-radius: 4px;
+    height: 48px;
+  }
+  .footer__small-screen-box {
+    display: none;
+  }
+  .footer__box-wrapper {
+    display: flex;
+    align-items: center;
+    margin: 35px 20px 26px 20px;
+  }
+  .footer__links-box {
+    margin-right: 35px 0 35px 0;
+    width: 60%;
+    justify-content: flex-start;
+  }
+  .footer__links-box img {
+    margin-bottom: 27px;
+  }
+  .footer__partners-box {
+    margin-bottom: 40px;
+  }
+  .footer__socials-box {
+    margin-bottom: 27px;
+  }
+  .footer_socials-box img {
+    margin-bottom: 27px;
+  }
+  .footer__span-under {
+    max-width: 450px;
+    margin: 0;
+  }
+  .footer__more-information {
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 728px;
+  }
+  .footer__information-wraper {
+    min-width: 563px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .footer__links-box .footer__links:nth-child(1) {
+    margin-right: 30px;
+  }
+  .footer__box-wrapper {
+    flex-direction: row;
+  }
+  .footer__links-box {
+    min-width: 247px;
+  }
+  .footer__hr {
+    margin-bottom: 16px;
+  }
+  .footer__input-e-mail-box {
+    max-width: 384px;
+  }
+  .footer__information-wraper {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .footer__information-wraper a {
+    margin-bottom: 10px;
+  }
+  .footer__large-screen-marks-box {
+    display: none;
+  }
+  .footer__small-screen-box {
+    display: block;
+  }
+}
+
+/* разрешение 1024рх */
+
+@media (min-width: 1024px) {
+  .header {
+    height: 76px;
+    margin-bottom: 16px;
+  }
+  .container {
+    width: 960px;
+  }
+  .header__logo {
+    margin: 20px 32px 20px 0;
+  }
+  .header__nav-display-large {
+    display: block;
+    font-size: 14px;
+    line-height: 16px;
+    width: 627px;
+  }
+  .header__nav-display-large ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    height: 16px;
+  }
+  .header__find-doctor {
+    display: block;
+    height: 48px;
+    background-color: #e3f5f5;
+    color: #03b2a5;
+    font-size: 16px;
+    line-height: 19px;
+    padding: 14px 20px;
+    border-radius: 4px;
+    font-family: "Montserrat-Bold", "serif";
+    font-weight: 700;
+    margin: 14px 0 14px 20px;
+    width: 230px;
+  }
+  .header__find-doctor:hover {
+    background-color: #16c8bb;
+    color: #fff;
+  }
+  .header__hamburger-menu {
+    display: none;
+  }
+  .show {
+    top: 72px;
+    height: 242px;
+    width: 200px;
+  }
+  .main__scroll {
+    height: 72px;
+    margin-bottom: 24px;
+  }
+  .main__scroll-box {
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+  .main__scroll-items {
+    margin: 0;
+  }
+  .main__container {
+    position: relative;
+  }
+  .header__nav-items {
+    width: 150px;
+    padding: 6px;
+  }
+  .main__content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 24px;
+    margin-bottom: 60px;
+    width: 714px;
+  }
+  .main__map-box {
+    width: 496px;
+    font-size: 12px;
+    margin-bottom: 54px;
+  }
+  .eclips-box {
+    width: 174px;
+    display: flex;
+    align-items: flex-start;
+    margin-top: 4px;
+  }
+  .eclips-box div:nth-child(1) {
+    height: 24px;
+    width: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .eclips {
+    max-width: 358px;
+  }
+  .main__content-title h1 {
+    font-family: "Montserrat-Bold", "serif";
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    width: 96%;
+  }
+  .main__content-author {
+    width: 100%;
+  }
+  .main__content-author figcaption {
+    display: flex;
+    gap: 4px;
+  }
+  .main__content-image {
+    background-image: url("../images/girl-inwater-large.png");
+    background-size: cover;
+    background-position: center;
+    height: 331px;
+    width: 100%;
+  }
+  .main__content-title-second {
+    font-family: "Montserrat-Bold", "serif";
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+  }
+  .main__content-links {
+    display: flex;
+    align-items: start;
+  }
+  .main__content-links div:nth-child(1) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 24px;
+    height: 24px;
+  }
+  .main__content-links p {
+    width: auto;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration: underline;
+  }
+  .main__content-links-second {
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+  }
+  .main__content-links-second div:nth-child(1) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 24px;
+    height: 24px;
+  }
+  .main__content-links-second p {
+    width: auto;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration: underline;
+  }
+  .main__content-title-subtitle {
+    font-family: "Montserrat-Bold", "serif";
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .main__content-third {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+  }
+  .main__content-third h3 {
+    font-family: "Montserrat-Bold", "serif";
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+  }
+  .main__content-third-text-one,
+  .main__content-third-text-two {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .main__content-third-text-one p {
+    width: auto;
+  }
+  .main__content-fourth-text-three p {
+    font-family: "Montserrat-light-italic", "serif";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .main__content-fourth-text-three {
+    background-color: #f3f7fe;
+    border-radius: 16px;
+    padding: 16px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .main__content-fourth-text-three {
+    height: 162px;
+  }
+  .main__content-fourth-text-three div:nth-child(1) {
+    position: absolute;
+    top: 16px;
+  }
+  .main__content-fourth-text-three div p:nth-child(1) {
+    font-size: 16px;
+    line-height: 24px;
+    font-family: "Montserrat-Light-italic", "serif";
+    font-weight: 400;
+    width: 680px;
+  }
+  .main__content-fourth-text-three img {
+    height: 36px;
+    width: 30px;
+  }
+  .main__content-fourth-text-three div figure figcaption {
+    font-size: 16px;
+    line-height: 24px;
+    font-family: "Montserrat-Bold", "serif";
+    font-weight: 700;
+  }
+  .main__content-fifth-text-four h3 {
+    font-size: 18px;
+    line-height: 26px;
+    font-family: "Montserrat-Bold", "serif";
+    font-weight: 700;
+    width: auto;
+  }
+  .main__content-fifth-text-four {
+    display: grid;
+    grid-template-rows: 32px 72px 96px;
+    gap: 16px;
+  }
+  .main__content-fifth-text-four-box {
+    display: flex;
+    align-self: flex-start;
+  }
+  .main__content-fifth-text-four-box div {
+    display: flex;
+    justify-content: centera;
+    align-items: flex-start;
+  }
+  .main__content-fifth-text-four-box div:nth-child(1) {
+    width: 24px;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .main__content-fifth-text-four-box p {
+    font-size: 16px;
+    line-height: 24px;
+    width: 658px;
+  }
+  .main__content-sixth-text-five {
+    flex-direction: column;
+    display: flex;
+    gap: 16px;
+    width: 100%;
+  }
+  .main__content-image-second {
+    background-image: url("../images/mans.png");
+    background-position: center;
+    background-size: cover;
+    height: 331px;
+    width: 100%;
+  }
+  .main__content-sixth-text-five figcaption {
+    font-family: "Montserrat-Light", "serif";
+    font-size: 14px;
+    line-height: 18px;
+    color: #868686;
+  }
+  .main__content-seventh-text-six p {
+    font-family: "Montserrat-regular", "serif";
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .main__content-eighth-text-seven {
+    background-image: url("../images/bgr-thing.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 168px;
+  }
+  .main__content-eighth-text-seven p {
+    font-family: "Montserrat-Light-italic", "serif";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    width: 485px;
+  }
+
+  .main__content-nine-text-eigth p {
+    font-size: 16px;
+    line-height: 24px;
+    width: 720px;
+  }
+  .main__content-ten-text-nine {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 16px;
+  }
+  .main__content-ten-text-nine p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .main__content-image-third {
+    background-image: url("../images/woman-in-hat.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 380px;
+    width: 294px;
+  }
+  .main__content-ten-text-nine div:nth-child(2) {
+    width: 57%;
+  }
+  .main__content-eleven-text-ten p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .main__content-twelve-text-eleven {
+    background-color: #fefaec;
+    border-radius: 16px;
+    padding: 16px;
+    width: auto;
+    display: grid;
+    gap: 8px;
+    height: 200px;
+  }
+  .main__content-twelve-text-eleven h3 {
+    font-size: 16px;
+    line-height: 24px;
+    font-family: "Montserrat-Bold", "serif";
+    font-weight: 700;
+  }
+  .main__content-twelve-text-eleven p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .main__content-thirteen-text-twelve {
+    display: grid;
+    gap: 16px;
+    grid-template-rows: 32px 72px 96px;
+  }
+  .main__content-thirteen-text-twelve h3 {
+    font-size: 18px;
+    line-height: 26px;
+    font-family: "Montserrat-Bold", "serif";
+    font-weight: 700;
+    width: auto;
+  }
+  .main__content-thirteen-text-twelve-box {
+    display: flex;
+    align-items: flex-start;
+  }
+  .main__content-thirteen-text-twelve-box div:nth-child(1) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 24px;
+    width: 24px;
+  }
+  .main__content-thirteen-text-twelve-box p {
+    width: 688px;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .main__content-fourteen-text-thirteen {
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+  }
+  .main__content-image-fourth {
+    background-image: url("../images/hands.png");
+    background-position: center;
+    background-size: cover;
+    height: 182px;
+    width: 294px;
+  }
+  .main__content-fourteen-text-thirteen p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .main__content-fourteen-text-thirteen div:nth-child(2) {
+    width: 56%;
+  }
+  .main__content-fifteen-text-fourteen p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .main__content-sixteen-text-fifteen {
+    padding: 16px;
+    background-color: #fff3eb;
+    border-radius: 16px;
+    display: grid;
+    gap: 8px;
+    height: 200px;
+  }
+  .main__content-sixteen-text-fifteen h3 {
+    font-size: 16px;
+    line-height: 24px;
+    font-family: "Montserrat-Bold", "serif";
+    font-weight: 700;
+  }
+  .main__content-sixteen-text-fifteen p {
+    font-size: 16px;
+    line-height: 24px;
+    width: auto;
+  }
+  .main__content-seventeen-text-sixteen {
+    display: grid;
+    gap: 8px;
+    width: 48%;
+  }
+  .main__content-seventeen-text-sixteen p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .main__content-image-fifth {
+    background-image: url("../images/chear-414.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: auto;
+  }
+  .main__content-eghteen-text-seventeen {
+    display: grid;
+    gap: 8px;
+    width: 48%;
+  }
+  .main__content-image-sixth {
+    background-image: url("../images/girl-414.png");
+    background-size: cover;
+    background-position: center;
+    height: 235px;
+  }
+  .main__content-eghteen-text-seventeen p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .line {
+    width: 66px;
+  }
+  .main__content-nineteen-text-eghteen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .main__content-nineteen-text-eghteen div:nth-child(1) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .line {
+    width: 66px;
+    height: 1px;
+    background-color: #0063a8;
+  }
+  .lightning {
+    background-image: url("../images/lightning.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 32px;
+    height: 32px;
+  }
+  .main__content-twenty-text-nineteen p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .main__content-twenty-one-text-twenty {
+    display: grid;
+    gap: 8px;
+    background-color: #03b2a51a;
+    border-radius: 16px;
+    padding: 16px;
+  }
+  .main__content-twenty-one-text-twenty h3 {
+    font-size: 16px;
+    line-height: 24px;
+    font-family: "Montserrat-Bold", "serif";
+    font-weight: 700;
+  }
+  .main__content-twenty-one-text-twenty p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .main__content-twenty-two-text-twenty-one {
+    display: grid;
+    grid-template-rows: 206px 162px 48px;
+    background-color: #e6f0fd;
+    border-radius: 16px;
+    gap: 24px;
+    padding: 24px;
+    text-align: center;
+    align-items: center;
+    width: 222px;
+    position: absolute;
+    right: 0;
+    top: 72px;
+  }
+  .main__content-image-seventh {
+    background-image: url("../images/family.png");
+    background-size: contain;
+    background-position: center;
+    height: 145px;
+    width: 181px;
+  }
+
+  .main__content-twenty-two-text-twenty-one div:nth-child(2) {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+  }
+  .main__content-twenty-two-text-twenty-one div:nth-child(2) div {
+    width: 182px;
+  }
+  .main__content-twenty-two-text-twenty-one h3 {
+    text-align: center;
+    font-size: 18px;
+    line-height: 24px;
+    font-family: "Montserrat-Bold", "serif";
+    font-weight: 700;
+    width: 182px;
+  }
+  .details {
+    font-family: "Montserrat-bold", "serif";
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    background-color: #35b3a9;
+    color: #fff;
+    width: 182px;
+    height: 48px;
+    border-radius: 4px;
+    font-weight: 700;
+    margin-top: 16px;
+  }
+  .main__content-twenty-three-text-twenty-two {
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 16px;
+    border: solid 1px#DEDEDE;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    padding: 24px;
+    box-shadow: 0 30px 50px 0 #eff5fb;
+    width: 222px;
+    top: 608px;
+    right: 0;
+  }
+  .specialist-lili {
+    background-image: url("../images/lili.png");
+    border-radius: 50%;
+    height: 120px;
+    width: 120px;
+  }
+  .specialist-lili div {
+    width: 174px;
+  }
+  .absolute {
+    position: absolute;
+    left: 16px;
+    top: 16px;
+    width: 56px;
+    width: 105px;
+  }
+  .absolute div {
+    background-color: #f3f4f8b2;
+    padding: 3px 6px;
+    display: flex;
+    border-radius: 6px;
+    height: 24px;
+  }
+  .absolute span {
+    font-size: 12px;
+    line-height: 18px;
+    font-family: "Montserrat-regular", "serif";
+  }
+  .absolute div:nth-child(2) {
+    width: 74px;
+    margin-top: 8px;
+  }
+  .specialist-lili-title {
+    text-align: center;
+  }
+  .specialist-lili-title h3 {
+    font-family: "Montserrat-bold", "serif";
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+  }
+  .specialist-lili-title h5 {
+    font-family: "Montserrat-regular", "serif";
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .specialist-lili-title span {
+    font-size: 14px;
+    line-height: 20px;
+    color: #a2a7b1;
+  }
+  .specialist-lili-title-main {
+    margin: 16px 19px 0 19px;
+    margin-top: 16px;
+    width: 174px;
+  }
+  .specialist-lili-title-main h3 {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .specialist-lili-title-main p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  hr {
+    background-color: #dedede;
+    height: 1px;
+    width: 174px;
+    margin: 0 auto;
+    margin-top: 16px;
+  }
+  .specialist-lili-title-main h3 {
+    font-family: "Montserrat-bold", "serif";
+    font-size: 16px;
+    line-height: 24px;
+    width: 174px;
+  }
+  .specialist-lili-title-main p {
+    font-size: 14px;
+    line-height: 20px;
+    width: 150px;
+  }
+  .main__content-twenty-four-text-twenty-three {
+    background-image: url("../images/Group.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 16px;
+    width: 222px;
+    height: 292px;
+    position: absolute;
+    right: 0;
+    top: 1128px;
+  }
+  .main__content-twenty-five-text-twenty-four {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-image: url("../images/gifts.png");
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    border: 1px solid #dedede;
+    border-radius: 16px;
+    padding: 16px;
+    gap: 16px;
+    width: 222px;
+    height: 308px;
+    position: absolute;
+    right: 0;
+    top: 1443px;
+  }
+  .main__content-twenty-five-text-twenty-four div:nth-child(1) {
+    display: flex;
+    align-items: baseline;
+  }
+  .main__content-twenty-five-text-twenty-four h2 {
+    font-family: "Montserrat-Bold", "serif";
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    margin-right: 4px;
+    color: #2963a3;
+  }
+  .main__content-twenty-five-text-twenty-four h3 {
+    font-family: "Montserrat-Bold", "serif";
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+    color: #2963a3;
+  }
+  .main__content-twenty-five-text-twenty-four p {
+    font-family: "Montserrat-Light", "serif";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .main__content-twenty-five-text-twenty-four span {
+    font-family: "Montserrat-Bold", "serif";
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+  }
+  .buy {
+    font-family: "Montserrat-Bold", "serif";
+    width: 108px;
+    height: 48px;
+    background-color: #35b3a9;
+    color: #fff;
+    border-radius: 4px;
+    padding: 12px 16px 12px 16px;
+    font-weight: 700;
+  }
+  .footer__btn {
+    display: block;
+    height: 48px;
+    width: 64px;
+    border-radius: 4px;
+  }
+  .footer__input-e-mail-box {
+    overflow: hidden;
+    border-radius: 4px;
+    height: 48px;
+  }
+  .footer__small-screen-box {
+    display: none;
+  }
+  .footer__box-wrapper {
+    display: flex;
+    align-items: center;
+    margin: 35px 20px 26px 20px;
+  }
+  .footer__links-box {
+    margin-right: 35px 0 35px 0;
+    width: 60%;
+    justify-content: flex-start;
+  }
+  .footer__links-box img {
+    margin-bottom: 27px;
+  }
+  .footer__partners-box {
+    margin-bottom: 40px;
+  }
+  .footer__socials-box {
+    margin-bottom: 27px;
+  }
+  .footer_socials-box img {
+    margin-bottom: 27px;
+  }
+  .footer__span-under {
+    max-width: 450px;
+    margin: 0;
+  }
+  .footer__more-information {
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 728px;
+  }
+  .footer__information-wraper {
+    min-width: 563px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .footer__links-box .footer__links:nth-child(1) {
+    margin-right: 30px;
+  }
+  .footer__box-wrapper {
+    flex-direction: row;
+  }
+  .footer__links-box {
+    min-width: 247px;
+  }
+  .footer__hr {
+    margin-bottom: 16px;
+  }
+  .footer__input-e-mail-box {
+    max-width: 384px;
+  }
+  .footer__information-wraper {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .footer__information-wraper a {
+    margin-bottom: 10px;
+  }
+  .footer__large-screen-marks-box {
+    display: block;
+  }
+  .footer__small-screen-box {
+    display: none;
+  }
+  .footer__large-screen-marks-box {
+    display: block;
+    margin-right: 30px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .header__contaier {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-bottom: solid 1px #f6f6f6;
+  }
+  .header__nav-display-large {
+    margin-right: 245px;
+  }
+  .main {
+    overflow: hidden;
+  }
+  .container {
+    width: 1200px;
+  }
+  .main__content {
+    width: 690px;
+  }
+  .main__content-twenty-two-text-twenty-one {
+    width: 282px;
+    height: 512px;
+    padding: 16px;
+  }
+  .main__content-image-seventh {
+    width: 257px;
+    height: 206px;
+  }
+  .main__content-twenty-three-text-twenty-two {
+    width: 282px;
+    height: 481px;
+    padding: 16px;
+  }
+  hr {
+    width: 250px;
+  }
+  .main__content-twenty-four-text-twenty-three {
+    width: 282px;
+    height: 292px;
+    top: 1113px;
+  }
+  .main__content-twenty-five-text-twenty-four {
+    width: 282px;
+    height: 304px;
+  }
+  .main__content-twenty-five-text-twenty-four {
+    top: 1428px;
+  }
+  .eclips-box {
+    align-items: flex-start;
+  }
+  .main__content-links-large {
+    display: flex;
+    width: 100%;
+  }
+  .main__content-large-under {
+    display: block;
+    width: 100%;
+    text-decoration: underline;
+    font-size: 16px;
+    line-height: 24px;
+    margin: -16px;
+  }
+  .main__content-large-under div:nth-child(1) {
+    margin-left: 56px;
+  }
+  .main__content-large-under div:nth-child(2) {
+    margin-left: 72px;
+  }
+  .main__content-large-under div:nth-child(3) {
+    margin-left: 88px;
+  }
+  .main__elem-right {
+    display: block;
+    background-image: url("../images/large-item.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 686px;
+    height: 606px;
+  }
+  .main__elem-right-box {
+    overflow: hidden;
+    height: 606px;
+    position: absolute;
+    right: 0;
+    top: 2404px;
+    width: 218px;
+  }
+  .main__content-twenty-six-text-twenty-five {
+    font-family: "Montserrat-regular", "serif";
+    display: block;
+    font-size: 14px;
+    line-height: 20px;
+    gap: 8px;
+    width: 100%;
+  }
+  .main__content-twenty-six-text-twenty-five a {
+    font-size: 14px;
+    line-height: 20px;
+    font-family: "Montserrat-regular", "serif";
+    color: #2963a3;
+  }
+  .main__hr-elem {
+    display: block;
+    height: 1px;
+    width: 100%;
+    color: #dedede;
+    margin-bottom: 72px;
+  }
+  .main__under-block {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-image: url("../images/under-image.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom;
+    padding-bottom: 108px;
+    position: relative;
+  }
+  .main__under-block-wrapper {
+    width: 348px;
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .main__under-block h3 {
+    font-family: "Montserrat-bold", "serif";
+    font-size: 48px;
+    line-height: 56px;
+  }
+  .main__under-block-wrapper div:nth-child(1) {
+    width: 348px;
+  }
+  .main__under-block-wrapper div:nth-child(2) {
+    width: 327px;
+  }
+  .main__image-under {
+    width: 520px;
+    height: 330px;
+    background-image: url("../images/he-and-she.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .main__under-button_find-doctor {
+    font-family: "Montserrat-regular", "serif";
+    background-color: #16c8bb;
+    width: 238px;
+    height: 60px;
+    color: #fff;
+    font-size: 16px;
+    line-height: 20px;
+    border-radius: 4px;
+  }
+  .main__under-block-image-absolute {
+    position: absolute;
+    width: 73px;
+    height: 243px;
+    overflow: hidden;
+    right: 0;
+    top: 0;
+  }
+  .main__under-block-image-absolute-item {
+    background-image: url("../images/image-under-absolute.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 272px;
+    height: 240px;
+  }
+  .main__content {
+    margin-bottom: 48px;
+  }
+  .main__under-block-image-absolute {
+    display: block;
+  }
+  .main__under-block-image-absolute-item {
+    display: block;
+  }
+  .main__elem-right {
+    display: block;
+  }
+  .main__elem-right-box {
+    display: block;
+  }
+  .footer__links-box {
+    width: 310px;
+  }
+}
